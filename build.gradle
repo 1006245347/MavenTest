@@ -19,6 +19,8 @@ buildscript {
 		maven { url 'https://clojars.org/repo/' }
 		maven { url 'https://dl.bintray.com/guardian/android' }
         jcenter()
+
+//        maven { url "https://raw.githubusercontent.com/1006245347/MavenTest/master"  }
         
     }
     dependencies {
@@ -48,7 +50,8 @@ allprojects {
 		maven { url 'https://clojars.org/repo/' }
 		maven { url 'https://dl.bintray.com/guardian/android' }
         jcenter()
-        
+
+        maven { url "https://raw.githubusercontent.com/1006245347/MavenTest/master"  }
     }
 }
 
